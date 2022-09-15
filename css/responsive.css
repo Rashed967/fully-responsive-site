@@ -1,0 +1,36 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+@media (min-width: 320px) and (max-width: 575px){
+	/*header part responsive code start*/
+	.header_icon{
+		display: none;
+	}
+
+	.header_text p{
+		text-align: center;
+		font-size: 20px;
+	}
+	/*header part responsive code end*/
+
+	/*navigation part responsive code start*/
+	.navbar-nav .nav-item .nav-link{
+		text-align: center;
+	}
+	/*navigation part responsive code end*/
+}
+ 
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) { ... }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px){ ... }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px){ ... }
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px){ ... }
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }

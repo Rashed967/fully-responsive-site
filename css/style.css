@@ -50,13 +50,12 @@ body{
 /*header part css end*/
 
 /*navigaion part css start*/
+
+
 	.navbar-nav .nav-item .nav-link.active{
 		color: #0872b9;
 	}
 
-	.navbar{
-		height: 80px;
-	}
 /*navigaion part css end*/
 
 /*banner part css start*/
