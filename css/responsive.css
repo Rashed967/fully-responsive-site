@@ -54,6 +54,52 @@
     left: 48%;
    }
 	/*common heading part responsive code end*/
+
+	/*service part responsive code start*/
+	.service_main{
+		margin-top: 60px;
+	}
+
+	.big_img{
+		margin-bottom: 20px;
+	}
+
+	.xsm_img{
+		margin-top: 50px;
+	}
+
+	.round_img{
+
+	}
+
+	.piramid{
+		left: 43%;
+	}
+
+	.testi_content p{
+		text-align: justify;
+	}
+	/*service part responsive code end*/
+
+	/*footer part responsive code start*/
+	.footer_logo{
+		text-align: center;
+	}
+
+	.xsm_text{
+		display: none;
+	}
+
+	.footer_common_heading {
+		text-align: center;
+	}
+
+	.f_icon{
+		margin-left: 30px;
+	}
+
+	
+	/*footer part responsive code end*/
 }
  
 /*// Small devices (landscape phones, 576px and up)*/
@@ -64,7 +110,6 @@
 		background-color: indigo;
 		color: white;
 	}
-
 
 }
 
