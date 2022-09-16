@@ -3,25 +3,70 @@
 
 @media (min-width: 320px) and (max-width: 575px){
 	/*header part responsive code start*/
-	.header_icon{
-		display: none;
-	}
+	
 
 	.header_text p{
 		text-align: center;
-		font-size: 20px;
+		font-size: 11px;
+		margin-top: 5px;
 	}
+	.header_icon ul li {
+     padding: 0px 4px;
+}
 	/*header part responsive code end*/
 
 	/*navigation part responsive code start*/
 	.navbar-nav .nav-item .nav-link{
 		text-align: center;
+		background-color: green;
+		color: white;
+	}
+
+	.navbar-nav .nav-item .nav-link:hover{
+		background-color: teal;
+	}
+
+	.navbar-nav{
+		margin-top: 15px;
 	}
 	/*navigation part responsive code end*/
+
+	/*banner part responsive code start*/
+	.banner_content{
+		text-align: center;
+	}
+
+	.hide_con{
+		display: none;
+	}
+	/*banner part responsive code end*/
+
+	/*common heading part responsive code start*/
+	.common_heading h4:after {
+    left: 32%;
+   }
+
+.common_heading h4:before {
+    left: 45%;
+   }
+
+   .common_heading h4 span:after {
+    left: 48%;
+   }
+	/*common heading part responsive code end*/
 }
  
 /*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767px) { ... }
+@media (min-width: 576px) and (max-width: 767px) { 
+
+	.navbar-nav .nav-item .nav-link{
+		text-align: center;
+		background-color: indigo;
+		color: white;
+	}
+
+
+}
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px){ ... }
