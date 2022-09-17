@@ -98,18 +98,98 @@
 		margin-left: 30px;
 	}
 
-	
+	.xsm_menu{
+		padding-left: 70px;
+	}
 	/*footer part responsive code end*/
 }
  
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) { 
 
+	/*navigation part responsive code start*/
+	.navbar-nav{
+		margin-top: 15px;
+	}
 	.navbar-nav .nav-item .nav-link{
 		text-align: center;
 		background-color: indigo;
 		color: white;
 	}
+	/*navigation part responsive code end*/
+
+	/*banner part responsive code start*/
+	.banner_content{
+		text-align: center;
+	}
+	/*banner part responsive code end*/
+
+	/*about part responsive code start*/
+	.sm_text{
+		display: none;
+	}
+	.about_content {
+    margin-top: -14px;
+    line-height: 25px;
+    }
+    /*about part responsive code end*/
+
+    /*common heading responsive code start*/
+    .common_heading h4 {
+    margin: 25px 0 40px;
+    }
+    /*common heading responsive code end*/
+
+   /*service part responsive code start*/
+   .ser_icon_main {
+    top: -23%;
+    left: 34%;
+    }
+
+    .sm_ser_main{
+    	margin-top: 50px;
+    }
+
+    .sm_ser_icon_main{
+     top: -26%;
+     left: 41%;
+    }
+   /*service part responsive code end*/
+
+   /*gallery part responsive code start*/
+    .big_img{
+    	margin-bottom: 20px;
+    }
+
+   /*gallery part responsive code end*/
+
+   /*testimonia part responsive code start*/
+   .piramid{
+		left: 42%;
+	}
+   /*testimonia part responsive code end*/
+
+   /*footer part responsive code start*/
+	.footer_logo{
+		text-align: center;
+	}
+
+	.xsm_text{
+		display: none;
+	}
+
+	.footer_common_heading {
+		text-align: center;
+	}
+
+	.f_icon{
+		margin-left: 100px;
+	}
+
+	.xsm_menu{
+		padding-left: 170px;
+	}
+	/*footer part responsive code end*/
 
 }
 
